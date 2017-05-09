@@ -15,10 +15,16 @@
 <script type="text/babel">
     var Bacon = React.createClass({
       render: function(){
-        return (<h3>This is a simple component, via React / JSX script on index.html page.</h3>);
-      }
+        return (
+					<div>	
+						<h3>This is a simple component, via React / JSX script on index.html page.</h3>);
+						<p>Sample paragraph, showing multiple elements in 1 componenet, if wrapped in a div.</p>
+					</div>
+			}
     });
     ReactDOM.render(<Bacon />, document.getElementById('example'));
   </script>
 </body>
 </html>
+
+
