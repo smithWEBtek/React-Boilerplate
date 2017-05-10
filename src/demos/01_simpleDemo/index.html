@@ -12,18 +12,14 @@
   <p>Testing if server is working....this text is default, on the index.html page.</p>
   <div id="example"></div>
  
-<script type="text/babel">
-    var Bacon = React.createClass({
-      render: function(){
-        return (
-					<div>	
-						<h3>This is a simple component, via React / JSX script on index.html page.</h3>);
-						<p>Sample paragraph, showing multiple elements in 1 componenet, if wrapped in a div.</p>
-					</div>
+	<script type="text/babel">
+		var Bacon = React.createClass({
+			render: function() {
+				return (<h3>bacon is done!</h3>);
 			}
-    });
-    ReactDOM.render(<Bacon />, document.getElementById('example'));
-  </script>
+	});
+		ReactDOM.render(<Bacon />, document.getElementById('example'));
+	</script>
 </body>
 </html>
 
